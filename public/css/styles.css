@@ -1,0 +1,146 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+body{
+}
+.coloured {
+    background-color: #031040;
+    /* background-color: pink; */
+    color: aliceblue;
+}
+.logo{
+    height: 3.5rem;
+    width: 3rem;
+}
+.group-img {
+    height: 45rem;
+    width: 100%;
+    background-image: url(../images/midas.svg);
+    background-position: center;
+    position: relative;
+    text-align: justify;
+}
+.group-img h1{
+    position: absolute;
+    right: 20rem;
+    left: 45rem;
+    bottom: 28rem;
+    text-align: left;
+    font-size: 3rem;
+}
+.group-img h3 {
+    position: absolute;
+    right: 12rem;
+    left: 45rem;
+    bottom: 20rem;
+}
+.group-img .login {
+    position: absolute;
+    right: 12rem;
+    left: 44rem;
+    bottom: 15rem;
+}
+.group-img .youtube {
+    position: absolute;
+    right: 12rem;
+    left: 58rem;
+    bottom: 15rem;
+    color: aliceblue;
+}
+.home {
+    text-align: justify;
+    padding: 3rem 0rem;
+    background-color: #3f4eb0;
+    color: #babbe3;
+    font-family: 'Arvo', serif;
+}
+.home p{
+    position: relative;
+    width: 80%;
+    left: 7.5rem;
+}
+
+        /* footer */
+        #footer {
+            margin: 30px auto 7px;
+            overflow: auto;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            /* background-color: red;
+            color: white; */
+            text-align: center;
+        }   
+        #footer .fa {
+            font-size: 1.2rem;
+            margin: 20px 10px 0px;
+        }
+        #footer a {
+            color: black;
+        }
+
+@media screen and (max-width: 400px) {
+            .group-img {
+              background-image: url(../images/wall.jpg);
+            }
+            /* .group-img {
+                height: 45rem;
+                width: 100%;
+                background-image: url(../images/midas.svg);
+                background-position: center;
+                position: relative;
+                text-align: justify;
+            } */
+            .group-img{
+                width: 100%;
+            }
+            .group-img h1{
+                position: absolute;
+                top: 4rem;
+                left: 1rem;
+                right: 6rem;
+                text-align: center;
+            }
+            .group-img h3 {
+                position: absolute;
+                right: 6rem;
+                left: 1rem;
+                top: 15rem;
+            }
+            .group-img .login {
+                position: absolute; 
+                right: 6rem;
+                left: 1rem;
+                bottom: 15rem;
+            }
+            .group-img .youtube {
+                position: absolute; 
+                right: 6rem;
+                left: 1rem;
+                bottom: 12rem;
+                color: aliceblue;
+            }
+            .home p{
+                position: relative;
+                width: 100%;
+                left: 0rem;
+            }
+            #footer {
+                position: relative;
+                margin: auto;
+                overflow: auto;
+                left: 0;
+                right: 6rem;
+                bottom: 0;
+                width: 100%;
+                /* background-color: red;
+                color: white; */
+                text-align: center;
+            }   
+            #footer .fa {
+                font-size: 1.2rem;
+                margin: 20px 10px 0px;
+            }
+}
+

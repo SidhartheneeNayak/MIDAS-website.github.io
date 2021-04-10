@@ -1,0 +1,32 @@
+body{
+    background-color: #97BC62FF;
+    color: #2C5F2D;
+}
+
+.heading{
+    top: 11rem;
+}
+
+.navbar {
+    background-color: #97BC62FF !important;
+}
+
+        /* footer */
+        #footer {
+            margin: 30px auto 7px;
+            overflow: auto;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            color: black;
+            /* background-color: red;
+            color: white; */
+            text-align: center;
+        }   
+        #footer .fa {
+            font-size: 1.2rem;
+            margin: 20px 10px 0px;
+        }
+        #footer a {
+            color: black;
+        }

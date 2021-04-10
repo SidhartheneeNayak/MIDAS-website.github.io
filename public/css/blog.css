@@ -1,0 +1,29 @@
+body{
+    background-color: #EEA47FFF;
+}
+
+h1{
+    text-shadow: 3px 3px 6px #00539CFF;
+    font-size: 5rem;
+    text-align: center;
+    margin: 3rem 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+.heading {
+    color: #EEA47FFF;
+    background-color: #00539CFF;
+}
+
+a {
+    text-decoration: none;
+    color: #EEA47FFF;
+}
+
+a:hover {
+    color: rgb(233, 106, 43);
+}
+
+.navbar {
+    background-color: #EEA47FFF !important;
+}

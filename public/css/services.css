@@ -1,0 +1,19 @@
+.navbar-nav{
+    position: absolute  !important;
+    right: 1rem;
+    left: 5rem;
+}
+@media (min-width: 768px) {
+    .navbar-brand.abs
+        {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            text-align: center;
+        }
+    }
+
+.logo{
+        height: 3.5rem;
+        width: 3rem;
+}

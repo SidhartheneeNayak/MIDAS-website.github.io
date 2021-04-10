@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+  
+    <!-- CSS files inclusion -->
+    <!-- <link rel="stylesheet" href="css/styles.css"> -->
+  
+    <!--fontawesome-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <style>
+        .news{
+            width: 50%;
+            padding-top: 3rem;
+            text-align: justify;
+        }
+        h1{
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding-top: 4.5rem;
+            text-shadow: rgb(61, 61, 61) 2px 2px 5px;
+        }
+        /* footer */
+        #footer {
+            margin: 30px auto 7px;
+            overflow: auto;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            /* background-color: red;
+            color: white; */
+            text-align: center;
+            letter-spacing: 6px;
+        }   
+        #footer .fa {
+            font-size: 1.2rem;
+            margin: 20px 10px 0px;
+        }
+        #footer a {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img alt="Brand" src="./images/midas2.png" style="height: 2.5rem; width: 2.5rem;">
+        <a class="navbar-brand abs" >MIDAS IIITD</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
+          </div>
+        </div>
+      </nav>
+
+    <h1 class="display-4">Latest News</h1>
+    <div class="container-fluid news">
+        <div class="row">
+            <div class="col-4">
+              <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">BigMM 2019 Best poster award </a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">ICDM/ICBK KGC Honourable Mention</a>
+                <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">First prize in ACM INDIA Chapters Technology Solution Contest - 2019</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Paper Accepted in KBS</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#ACMMM" role="tab" aria-controls="settings">Paper accepted at ACMMM2018</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#IEEE" role="tab" aria-controls="settings">Paper accepted in IEEE, ACSA.</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#laureate" role="tab" aria-controls="settings">Dr. Rajiv, got the Heidelberg Laureate Forum fellowship 2018</a>
+                <!-- <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#NII" role="tab" aria-controls="settings">NII is our new collaborator</a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#MR2" role="tab" aria-controls="settings">Paper accepted at MR2AMC 2018</a> -->
+
+              </div>
+            </div>
+            <div class="col-8">
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                    Congratulations Shivangi Singhal on winning the best poster award at IEEE BigMM19 for paper titled, “SPOTFAKE: A MULTI-MODAL FRAMEWORK FOR FAKE NEWS DETECTION”.</div>
+                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">We are thrilled to announce that MIDAS team got the Honorable Mention Award of 2019 ICDM/ICBK KGC Contest. Congratulations to team Mehar Bhatia, Ritwik Mishra, Akash Gautam, Debanjan Mahata and Rajiv Ratn Shah</div>
+                <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Our team won the first prize in ACM INDIA Chapters Technology Solution Contest - 2019. It was sponsored by ICERTIS. We were awarded Rs 65,000 for being the winner of this challenge. https://t.co/SvboGpKG8v?amp=1</div>
+                <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Our paper titled, “Bagged Support Vector Machines for Emotion Recognition from Speech” is got accepted to the Knowledge-Based Systems (KBS) journal with impact factor 4.529. Congrats authors, Anjali Bhavan; Pankaj Chauhan, Hitkul and Rajiv Ratn Shah.</div>
+                <div class="tab-pane fade" id="ACMMM" role="tabpanel" aria-labelledby="list-settings-list">MIDAS founder and collaborators, Rajiv Ratn Shah, Yifang Yin, and Roger Zimmermann published a full paper titled, “Learning and Fusing Multimodal Deep Features for Acoustic Scene Categorization”, in the ACM Multimedia 2018, a premier conference for multimedia research.</div>
+                <div class="tab-pane fade" id="IEEE" role="tabpanel" aria-labelledby="list-settings-list">MIDAS founder, Dr. Rajiv Ratn Shah, and collaborator, Dr. Debanjan Mahata, got their research paper, titled “Did you take the pill? – Detecting Personal Intake of Medicine from Twitter”, accepted in the special chapter of IEEE Intelligent Systems on Affective Computing and Sentiment Analysis.
+                </div>
+                <div class="tab-pane fade" id="laureate" role="tabpanel" aria-labelledby="list-settings-list">MIDAS founder, Dr. Rajiv Ratn Shah, got selected for the Heidelberg Laureate Forum fellowship 2018 which will be held in Heidelberg, Germany.
+                </div>
+                <!-- <div class="tab-pane fade" id="NII" role="tabpanel" aria-labelledby="list-settings-list">Professor Shin’ichi Satoh and Prof Henri Angelino from the National Institute of Informatics (NII), Japan visited MIDAS@IIITD to sign MOU between NII and IIIT-Delhi to establish research collaboration between two institutes. MIDAS founder, Prof Rajiv Ratn Shah, is the contact person at IIIT-Delhi for this research collaboration.
+                </div>
+                <div class="tab-pane fade" id="MR2" role="tabpanel" aria-labelledby="list-settings-list">Our paper titled, “A Multimodal Approach to Predict Social Media Popularity “, got accepted in the MR2AMC workshop 2018
+                </div> -->
+            </div>
+          </div>
+    </div>
+    
+  <!-- Footer -->
+  <footer id="footer" class="blank">
+    <p style="margin-bottom: 0.3rem;">
+      <a href="https://twitter.com/midasIIITD"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="https://www.facebook.com/midasIIITD/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/company/midasiiitd/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    </p>
+    <p style="letter-spacing: normal;">© Designed and Developed by Sidharthenee Nayak</p>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!--BOOTSTRAP JS FILES-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
